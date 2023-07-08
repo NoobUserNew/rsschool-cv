@@ -1,0 +1,33 @@
+@import "normalize.css";
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(75, 70, 114);
+    color: white;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 10%;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    margin-right: 4%;
+}
+a:hover {
+    padding: 1%;
+    background-color: blueviolet;
+}
