@@ -17,8 +17,8 @@ h1 {
 
 nav {
     display: inline-block;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: 10%;
+    width: 65%;
     margin-bottom: 10%;
 }
 a {
@@ -28,8 +28,9 @@ a {
     margin-right: 4%;
 }
 a:hover {
-    padding: 1%;
+    padding: 0.8%;
     background-color: blueviolet;
+    border-radius: 15px;
 }
 
 a:focus {
@@ -40,6 +41,7 @@ a:focus {
 .myPhoto {
     display: block;
     margin: 0 auto;
+    box-shadow: 5px 5px  5px black;
 }
 
 h2 {
