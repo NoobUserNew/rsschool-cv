@@ -1,0 +1,92 @@
+@import "normalize.css";
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(75, 70, 114);
+    color: white;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 10%;
+    width: 65%;
+    margin-bottom: 10%;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    margin-right: 4%;
+}
+a:hover {
+    padding: 0.8%;
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+
+a:focus {
+    background-color: white;
+    color: black;
+}
+
+.myPhoto {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 5px 5px  5px black;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+header {
+    margin-bottom: 15%;
+}
+
+.containerInfo {
+    padding: 5% 2%;
+    margin-bottom: 15%;
+    background: linear-gradient(to bottom right, rgb(255, 0, 170), blue);
+    border-radius: 25px;
+}
+
+#contact {
+    margin-bottom: 10%;
+}
+
+#aboutMe {
+    margin-bottom: 10%;
+}
+
+#mySkills {
+    margin-bottom: 10%;
+}
+
+#exampleCode {
+    margin-bottom: 10%;
+}
+
+#education {
+    margin-bottom: 10%;
+}
+
+#levelEnglish {
+    margin-bottom: 10%;
+}
+
+footer {
+    padding: 5% 2%;
+    background: linear-gradient(to bottom right, rgb(255, 0, 170), blue);
+    border-radius: 25px;
+    display: flex;
+}
